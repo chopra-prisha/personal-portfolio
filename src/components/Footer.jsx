@@ -46,7 +46,7 @@ const Footer = () => (
         <img
           src={profilePic}
           alt="Prisha Chopra"
-          className="w-[200px] h-[200px] border-2 border-teal-200 relative z-[5] rounded-full"
+          className="w-[200px] h-[200px] border-2 border-[#9c27b0] relative z-[5] rounded-full"
         />
       </div>
     </div>

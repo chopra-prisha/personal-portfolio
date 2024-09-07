@@ -7,17 +7,20 @@
 :root {
   --black-gradient: linear-gradient(
     144.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+    #000000 -278.56%,
+    #333333 -78.47%,
+    #111111 91.61%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
-  --scrollbar-primary: #00040f;
-  --scrollbar-secondary: lightblue;
+  --scrollbar-primary: #000000;
+  --scrollbar-secondary: #7f5fc6; /* Purple color for scrollbar thumb */
+  --text-color: #f5f5f5; /* Light text color for readability on black background */
+  --icon-color: #9b59b6; /* Purple color for icons */
 }
 
 * {
   scroll-behavior: smooth;
+  color: var(--text-color); /* Apply text color globally */
 }
 
 /* Firefox */
@@ -45,12 +48,12 @@
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
-    #def9fa 0.89%,
-    #bef3f5 17.23%,
-    #9dedf0 42.04%,
-    #7de7eb 55.12%,
-    #5ce1e6 71.54%,
-    #33bbcf 100%
+    #e1bee7 0.89%,
+    #ce93d8 17.23%,
+    #ba68c8 42.04%,
+    #ab47bc 55.12%,
+    #9c27b0 71.54%,
+    #8e24aa 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -61,47 +64,37 @@
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
-    #def9fa -43.27%,
-    #bef3f5 -21.24%,
-    #9dedf0 12.19%,
-    #7de7eb 29.82%,
-    #5ce1e6 51.94%,
-    #33bbcf 90.29%
+    #d1c4e9 -43.27%,
+    #b39ddb -21.24%,
+    #9c27b0 12.19%,
+    #7e57c2 29.82%,
+    #5e35b1 51.94%,
+    #512da8 90.29%
   );
 }
 
 .bg-black-gradient {
-  background: linear-gradient(
-    144.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
-  );
+  background: var(--black-gradient);
 }
 
 .bg-black-gradient-2 {
-  background: linear-gradient(
-    -168.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
-  );
+  background: var(--black-gradient);
 }
 
 .bg-gray-gradient {
   background: linear-gradient(
     153.47deg,
     rgba(255, 255, 255, 0) -341.94%,
-    #14101d 95.11%
+    #212121 95.11%
   );
 }
 
 .bg-discount-gradient {
-  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+  background: linear-gradient(125.17deg, #333333 0%, #111111 100%);
 }
 
 .box-shadow {
-  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  box-shadow: var(--card-shadow);
 }
 
 .sidebar {
@@ -172,8 +165,8 @@
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 100px;
-  background-color: rgb(10, 10, 10);
-  color: #fff;
+  background-color: rgba(0, 0, 0, 0.9); /* Darker background for readability */
+  color: var(--text-color);
   font-size: 14px;
   text-align: center;
   border-radius: 6px;
@@ -193,7 +186,7 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent black transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.9) transparent;
 }
 
 .tooltip:hover .tooltiptext {

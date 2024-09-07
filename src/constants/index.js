@@ -334,7 +334,7 @@ export const projects = [
    {
     id: "project-4",
     title: "Portfolio",
-    github: "https://github.com/mittal-parth/personal-portfolio",
+    github: "https://github.com/chopra-prisha/personal-portfolio.git",
     link: "",
     image: portfolio,
     content: "Personal portfolio website with React and Tailwind CSS.",
