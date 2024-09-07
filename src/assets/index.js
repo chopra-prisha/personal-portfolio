@@ -1,0 +1,95 @@
+import prishachopra from "./prisha.svg";
+import profilePic from "./profile-pic.jpg";
+import quotes from "./quotes.svg";
+import robot from "./robot.png";
+import send from "./Send.svg";
+import shield from "./Shield.svg";
+import star from "./Star.svg";
+import menu from "./menu.svg";
+import close from "./close.svg";
+import google from "./google.svg";
+import apple from "./apple.svg";
+import arrowUp from "./arrow-up.svg";
+import discount from "./Discount.svg";
+import facebook from "./facebook.svg";
+import instagram from "./instagram.svg";
+import linkedin from "./linkedin.svg";
+import twitter from "./twitter.svg";
+import iitrpr from "./iitrpr.jpg";
+import cluboard from "./cluboard.png";
+import cash_flow from "./cash_flow.jpg";
+import freadom from "./freadom.jpg";
+import ecell from "./ecell.png";
+import gdsc from "./gdsc.png";
+import genesis from "./genesis.jpg";
+import todo from "./todo.jpg";
+import graphql from "./graphql.png";
+import portfolio from "./portfolio.jpg";
+import zulip from "./zulip.jpg";
+import publiclab from "./publiclab.png";
+import cdc from "./cdc.png";
+import chargeswap from "./chargeswap.png";
+import placeicon from "./place-icon.svg";
+import recruitment from "./recruitment.png";
+import huntly from "./huntly.png";
+import newsApp from "./newsApp.webp";
+import comicify_ai from "./comicify-ai.png";
+import greentrust from "./green_trust.png";
+import fabhotels from "./fabhotels.jpg";
+import devfolio from "./devfolio.png";
+import pba from "./pba_logo.jpeg";
+import ethglobal from "./ethglobal.png";
+import lightspeed from "./lightspeed.png";
+import dennisivy from "./dennisivy.png";
+import manipal from "./manipal.png";
+import icon from "./icon.jpg";
+import ethforall from "./ethforall.png";
+
+export {
+  quotes,
+  robot,
+  send,
+  shield,
+  star,
+  menu,
+  close,
+  google,
+  apple,
+  arrowUp,
+  discount,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  iitrpr,
+  cluboard,
+  cash_flow,
+  freadom,
+  gdsc,
+  ecell,
+  genesis,
+  todo,
+  graphql,
+  portfolio,
+  publiclab,
+  zulip,
+  cdc,
+  prishachopra,
+  profilePic,
+  chargeswap,
+  placeicon,
+  recruitment,
+  huntly,
+  comicify_ai,
+  newsApp,
+  greentrust,
+  fabhotels,
+  devfolio,
+  pba,
+  ethglobal,
+  lightspeed,
+  dennisivy,
+  manipal,
+  icon,
+  ethforall
+};
