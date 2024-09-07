@@ -40,7 +40,7 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
+export const resumeLink = "";
 
 export const callToAction = "https://www.linkedin.com/in/chopra-prisha/";
 
@@ -239,7 +239,7 @@ export const projects = [
     id: "project-1",
     title: "Spark",
     github: "https://github.com/TuhinanshuModgil/chat_app_backend.git",
-    link: "",
+    link: "https://spark-app-production.onrender.com/signup",
     image: chargeswap,
     content:
       "A real-time chat app using WebSockets for seamless communication, coupled with email authentication to ensure that only users from the same institute can connect and interact securely",
