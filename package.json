@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "private": true,
-  "homepage": "https://chopra-prisha.github.io/personal-portfolio",
+  "homepage": "https://chopra-prisha.github.io/personal-portfolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
